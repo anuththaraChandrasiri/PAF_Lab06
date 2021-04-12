@@ -48,6 +48,7 @@ public class Item {
 			// execute the statement			
 			preparedStmt.execute();
 			con.close();
+			
 			output = "Inserted successfully";
 		}
 		catch (Exception e)
@@ -135,6 +136,7 @@ public class Item {
 			// execute the statement
 			preparedStmt.execute();
 			con.close();
+			
 			output = "Updated successfully";
 			}
 		catch (Exception e)
