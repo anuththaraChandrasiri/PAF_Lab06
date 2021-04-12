@@ -164,6 +164,7 @@ public class Item {
 			// execute the statement
 			preparedStmt.execute();
 			con.close();
+			
 			output = "Deleted successfully";
 		}
 		catch (Exception e)
